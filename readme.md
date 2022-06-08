@@ -3,7 +3,7 @@
 In this test project, I used springboot and wiremock.
 
 ### Run wiremock server
-Wire mock server resources are in `src/main/resource/mock-server`.
+Wire mock server resources are in `mock-server`.
 In this directory, can execute `java -jar wiremock-standalone-2.27.0.jar -port=9000` to run mock service.
 It will run on `9000` port.
 
@@ -13,7 +13,7 @@ After running wiremock server, we can run springboot server which will be run on
   By default, springboot server will be run `8090` port.
   ![img.png](images/run.png)
   In `org.disney.gateway.ProductGateway`, the remote communication with wiremock server is implemented.
-* I attached packed jar file in `resources` folder, so can run springboot by executing `java -jar DisneyTest-1.0-SNAPSHOT.jar` directly.
+* I attached jar file in project folder, so can run springboot by executing `java -jar DisneyTest-1.0-SNAPSHOT.jar` directly.
 
 
 ### Test Code
