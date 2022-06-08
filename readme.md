@@ -14,6 +14,7 @@ After running wiremock server, we can run springboot server which will be run on
   ![img.png](images/run.png)
   In `org.disney.gateway.ProductGateway`, the remote communication with wiremock server is implemented.
 * I attached jar file in project folder, so can run springboot by executing `java -jar DisneyTest-1.0-SNAPSHOT.jar` directly.
+Note: This jar file is compiled with java 11.
 
 
 ### Test Code
