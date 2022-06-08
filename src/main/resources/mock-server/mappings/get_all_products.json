@@ -1,0 +1,45 @@
+{
+  "scenarioName": "get-all-products",
+  "request": {
+    "urlPath": "/products",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 1,
+        "content": "product1",
+        "experienceDetails": "experienceDetails1",
+        "inventoryId": 100
+      },
+      {
+        "id": 2,
+        "content": "product2",
+        "experienceDetails": "experienceDetails2",
+        "inventoryId": 101
+      },
+      {
+        "id": 3,
+        "content": "product3",
+        "experienceDetails": "experienceDetails3",
+        "inventoryId": 102
+      },
+      {
+        "id": 4,
+        "content": "product4",
+        "experienceDetails": "experienceDetails4",
+        "inventoryId": 103
+      },
+      {
+        "id": 5,
+        "content": "product5",
+        "experienceDetails": "experienceDetails5",
+        "inventoryId": 104
+      }
+    ]
+  }
+}

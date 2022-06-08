@@ -1,0 +1,15 @@
+{
+  "scenarioName": "book-product-by-inventory-id",
+  "request": {
+    "urlPath": "/product/book",
+    "queryParameters": {
+      "inventoryId": {
+        "matches": "[0-9]*"
+      }
+    },
+    "method": "POST"
+  },
+  "response": {
+    "status": 200
+  }
+}

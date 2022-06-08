@@ -1,0 +1,24 @@
+{
+  "scenarioName": "get-product-by-id",
+  "request": {
+    "urlPath": "/product",
+    "queryParameters": {
+      "id": {
+        "matches": "[0-9]*"
+      }
+    },
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody": {
+      "id": 5,
+      "content": "sample content",
+      "experienceDetails": "sample detail",
+      "inventoryId": 99
+    }
+  }
+}
